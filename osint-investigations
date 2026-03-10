@@ -1,0 +1,28 @@
+# 🔍 OSINT Investigations & Methodology
+
+Este repositorio centraliza mis investigaciones, metodologías y reportes de **Open Source Intelligence (OSINT)** desarrollados durante mi formación en la carrera de Ciberseguridad. Aquí documento cómo recolecto, analizo y transformo datos públicos en inteligencia accionable.
+
+## 🛠️ Metodología de Investigación
+Mis investigaciones siguen un proceso estructurado para garantizar la veracidad y el orden de los datos:
+1. **Definición de Objetivos:** Identificación de los activos o individuos a investigar.
+2. **Recolección de Datos:** Uso de fuentes abiertas y herramientas técnicas.
+3. **Procesamiento y Análisis:** Validación de la información y conexión de puntos clave.
+4. **Reporte Final:** Documentación detallada en **Obsidian** para asegurar la trazabilidad.
+
+## 🧰 Herramientas y Frameworks
+* **Motores de Búsqueda:** Google Dorking avanzado y búsqueda inversa de imágenes.
+* **Redes Sociales:** Investigación de perfiles y análisis de metadatos.
+* **Infraestructura:** Consulta de registros WHOIS, registros DNS y certificados SSL.
+* **Software:** Maltego, Sherlock, y frameworks de OSINT personalizados.
+
+## 📁 Casos de Estudio (Write-ups)
+*Aquí puedes enlazar carpetas con tus investigaciones anonimizadas o laboratorios:*
+* **[Caso 001 - John]:** Investigación sobre la superficie de exposición de una empresa simulada.
+* **Análisis de Metadatos:** Caso práctico de extracción de información en documentos públicos.
+* **Desafíos de TryHackMe:** Resoluciones de salas enfocadas en OSINT y Forense Digital.
+
+## 🧠 Gestión del Conocimiento
+Toda la estructura de grafos y conexiones de estas investigaciones se gestiona en mi **Second Brain de Obsidian**, lo que me permite mapear relaciones complejas de manera visual y eficiente.
+
+---
+*Nota: Todas las investigaciones publicadas cumplen con principios éticos y se realizan sobre objetivos permitidos o entornos de práctica controlados.*
