@@ -1,0 +1,32 @@
+# 🐍 Python Security Tools (OOP Focused)
+
+Este repositorio contiene una colección de herramientas de automatización desarrolladas durante mi **segundo año de la carrera de Ciberseguridad**. El objetivo principal es aplicar conceptos de **Programación Orientada a Objetos (OOP)** para resolver tareas comunes en auditorías de seguridad.
+
+## 🛠️ Herramientas Incluidas
+
+### 1. Network Scanner (OOP Edition)
+Un escáner de red modular que utiliza clases para gestionar diferentes protocolos de escaneo.
+* **Características:** Identificación de hosts activos, escaneo de puertos específicos y detección de banners.
+* **Tecnologías:** Python 3, Librería `socket`.
+
+### 2. Password Toolkit
+Herramientas diseñadas para la gestión y análisis de diccionarios, optimizadas para trabajar en conjunto con procesos de cracking en **NVIDIA RTX 4070**.
+* **Características:** Generador de reglas personalizadas y filtrado de hashes.
+
+## 🚀 Entorno de Desarrollo
+Para asegurar la compatibilidad y el rendimiento, estas herramientas se desarrollan y prueban en:
+* **OS:** Kali Linux (entorno VirtualBox).
+* **IDE:** VS Code / Vim.
+* **Documentación:** Todo el flujo lógico y la bitácora de desarrollo se gestionan en **Obsidian**.
+
+## 📥 Instalación y Uso
+1. Clonar el repositorio:
+   `git clone https://github.com/tu-usuario/python-security-tools.git`
+2. Instalar dependencias:
+   `pip install -r requirements.txt`
+3. Ejecutar la herramienta principal:
+   `python main.py`
+
+## 📈 Roadmap
+- [ ] Implementar integración con APIs de **OSINT**.
+- [ ] Añadir módulos específicos para auditoría de **Active Directory**.
