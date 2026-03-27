@@ -1,28 +1,32 @@
 # 🔍 OSINT Investigations & Methodology
 
-Este repositorio centraliza mis investigaciones, metodologías y reportes de **Open Source Intelligence (OSINT)** desarrollados durante mi formación en la carrera de Ciberseguridad. Aquí documento cómo recolecto, analizo y transformo datos públicos en inteligencia accionable.
+Este repositorio centraliza mis investigaciones y reportes de **Open Source Intelligence (OSINT)** desarrollados durante mi formación técnica. Aquí documento la transformación de datos públicos en **Inteligencia Accionable**.
+
+## 🧠 El Enfoque del "Second Brain"
+Utilizo **Obsidian** no solo como bloc de notas, sino como un motor de grafos para mapear relaciones complejas entre entidades (personas, dominios, IPs). Esta trazabilidad permite conectar puntos que a simple vista parecen aislados, garantizando una investigación profunda y técnica.
 
 ## 🛠️ Metodología de Investigación
-Mis investigaciones siguen un proceso estructurado para garantizar la veracidad y el orden de los datos:
-1. **Definición de Objetivos:** Identificación de los activos o individuos a investigar.
-2. **Recolección de Datos:** Uso de fuentes abiertas y herramientas técnicas.
-3. **Procesamiento y Análisis:** Validación de la información y conexión de puntos clave.
-4. **Reporte Final:** Documentación detallada en **Obsidian** para asegurar la trazabilidad.
+Sigo un ciclo de inteligencia estructurado:
+1. **Planeamiento:** Definición de objetivos y vectores de búsqueda.
+2. **Recolección:** Extracción de datos mediante **Google Dorking**, redes sociales y registros técnicos.
+3. **Análisis:** Validación de fuentes (Cross-referencing) y eliminación de falsos positivos.
+4. **Difusión:** Reportes técnicos detallados con evidencias preservadas.
 
-## 🧰 Herramientas y Frameworks
-* **Motores de Búsqueda:** Google Dorking avanzado y búsqueda inversa de imágenes.
-* **Redes Sociales:** Investigación de perfiles y análisis de metadatos.
-* **Infraestructura:** Consulta de registros WHOIS, registros DNS y certificados SSL.
-* **Software:** Maltego, Sherlock, y frameworks de OSINT personalizados.
+## 🧰 Herramientas & Frameworks
+* **Infraestructura:** DNSDumpster, ViewDNS, registros WHOIS e inspección de certificados SSL/TLS.
+* **Identidad:** Sherlock (búsqueda de alias), herramientas de análisis de perfiles y SOCMINT.
+* **Imágenes:** Búsqueda inversa (Yandex/Google) y análisis de **Metadatos (Exiftool)**.
+* **Visualización:** Maltego para el mapeo de relaciones y Obsidian para la gestión del conocimiento.
 
-## 📁 Casos de Estudio (Write-ups)
-*Aquí puedes enlazar carpetas con tus investigaciones anonimizadas o laboratorios:*
-* **[Caso 001 - John]:** Investigación sobre la superficie de exposición de una empresa simulada.
-* **Análisis de Metadatos:** Caso práctico de extracción de información en documentos públicos.
-* **Desafíos de TryHackMe:** Resoluciones de salas enfocadas en OSINT y Forense Digital.
+## 📁 Casos de Estudio & Laboratorios (TryHackMe)
+Aquí aplico la metodología sobre escenarios reales y simulados:
 
-## 🧠 Gestión del Conocimiento
-Toda la estructura de grafos y conexiones de estas investigaciones se gestiona en mi **Second Brain de Obsidian**, lo que me permite mapear relaciones complejas de manera visual y eficiente.
+| Caso / Sala | Temas Clave |
+| :--- | :--- |
+| **Google Dorking** | Operadores avanzados para descubrir directorios expuestos y archivos sensibles. |
+| **Searchlight OSINT** | Localización geográfica y cronológica basada en imágenes y videos. |
+| **OhSINT** | Investigación completa de un perfil basada en un solo alias (User-ID). |
+| **Digital Forensics** | Extracción de metadatos y análisis de artefactos en documentos públicos. |
 
 ---
-*Nota: Todas las investigaciones publicadas cumplen con principios éticos y se realizan sobre objetivos permitidos o entornos de práctica controlados.*
+*Nota: Todas las investigaciones cumplen con principios éticos y se realizan en entornos controlados de práctica o sobre activos autorizados.*
